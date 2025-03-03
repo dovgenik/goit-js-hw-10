@@ -1,0 +1,46 @@
+/* #region Global */
+body {
+    background-color: #fafafa;
+    color: #212121;
+    line-height: 1.5;
+
+    padding: 24px;
+}
+
+
+.gallery {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    height: auto;
+}
+
+
+
+@media only screen and (min-width: 768px) {
+    .gallery {
+        flex-direction: row;
+        flex-wrap: wrap;
+        column-gap: 24px;
+        row-gap: 20px;
+        justify-content: start;
+        align-items: center;
+    }
+
+    .gallery-item {
+        width: calc((100% - 24px) / 2);
+    }
+
+}
+
+/* Styles for Desktop devices */
+@media only screen and (min-width: 1200px) {
+
+    .gallery {
+        max-width: 100%;
+    }
+
+    .gallery-item {
+        width: calc((100% - 48px) / 3);
+    }
+}

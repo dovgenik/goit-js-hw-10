@@ -1,0 +1,109 @@
+
+
+.feedback-form {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: column;
+    gap: 16px;
+
+    border-radius: 8px;
+    padding: 24px;
+    width: 408px;
+    height: 296px;
+
+    background-color: #fff;
+}
+
+.container-label {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: column;
+    gap: 8px;
+    width: 360px;
+    height: 192px;
+
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: #2e2f42;
+    font-family: "Montserrat", sans-serif;
+}
+
+.feedback-form button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    gap: 10px;
+    border: none;
+    border-radius: 8px;
+    padding: 8px 16px;
+    width: 95px;
+    height: 40px;
+
+    background: #4e75ff;
+
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: #fff;
+
+}
+
+.feedback-form button:hover,
+.feedback-form button:focus {
+    background: #6c8cff;
+}
+
+.label-email {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: column;
+    gap: 8px;
+
+    width: 360px;
+    height: 72px;
+
+}
+
+.label-email input {
+    border: 1px solid #808080;
+    border-radius: 4px;
+    width: 360px;
+    height: 40px;
+    outline: none;
+}
+
+.label-email input:hover {
+    border: 1px solid #000;
+}
+
+.label-email input:active,
+.label-email input:focus {
+    border: 1px solid #808080;
+}
+
+.label-message {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: column;
+    gap: 8px;
+
+    width: 360px;
+    height: 112px;
+}
+
+.label-message textarea {
+    border: 1px solid #808080;
+    border-radius: 4px;
+    width: 360px;
+    height: 80px;
+    outline: none;
+}
