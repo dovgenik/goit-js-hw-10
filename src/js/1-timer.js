@@ -1,7 +1,6 @@
 import flatpickr from 'flatpickr';
 import 'flatpickr/dist/flatpickr.min.css';
-import iziToast from 'izitoast';
-import 'izitoast/dist/css/iziToast.min.css';
+
 
 let dateEnd;
 let intervalId = null;
@@ -77,6 +76,3 @@ startBtn.addEventListener('click', () => {
 });
 
 const fp_1=flatpickr('#datetime-picker', options);
-console.log(fp_1);
-console.log("00000000000000000000000000000000");
-console.log(fp_1.config);
