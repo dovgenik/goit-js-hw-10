@@ -1,15 +1,13 @@
-
-    
-    
-
 .container-timer {
+    font-family: "Montserrat", sans-serif;
     display: flex;
     flex-direction: column;
     gap: 10px;
-   padding: 100px 0px 0px 100px; 
+    padding: 100px 0px 0px 100px;
 }
 
 .input {
+    font-family: "Montserrat", sans-serif;
     display: flex;
     align-items: flex-start;
     justify-content: flex-start;
@@ -19,6 +17,75 @@
     height: 40px;
 }
 
+.input input {
+    cursor: none;
+    border: 1px solid #808080;
+    border-radius: 4px;
+    width: 272px;
+    height: 40px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: #2e2f42;
+    padding-left: 16px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    background-color: #ffffff;
+}
+
+.flatpickr-input:focus {
+    border: 2px solid #007bff;
+    outline: none;
+}
+
+.flatpickr-input:hover {
+    border: 1px solid #000;
+}
+
+.flatpickr-input:active {
+    border: 1px solid #4e75ff;
+    color: #000;
+}
+
+.flatpickr-input:disabled {
+    cursor: default;
+    border: 1px solid #808080;
+    background-color: #fafafa;
+}
+
+
+.input button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    gap: 10px;
+    border-radius: 8px;
+    padding: 8px 16px;
+    width: 75px;
+    height: 40px;
+    background-color: #4e75ff;
+    border: none;
+
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: #fff;
+}
+
+.input button:hover {
+    background: #6c8cff;
+}
+
+.input button:disabled {
+    background-color: #cfcfcf;
+    color: #989898;
+}
+
+
+
 .timer {
     display: flex;
     align-items: flex-start;
@@ -26,28 +93,30 @@
     flex-direction: row;
     gap: 24px;
     width: 346px;
-height: 72px;
+    height: 72px;
 }
 
 .field {
     display: flex;
-align-items: center;
-justify-content: flex-start;
-flex-direction: column;
-gap: 0px;
-width: 61px;
-height: 72px;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
+    gap: 0px;
+    width: 61px;
+    height: 72px;
 }
 
 .value {
+    font-family: "Montserrat", sans-serif;
     font-weight: 400;
-font-size: 40px;
-line-height: 1.2;
-letter-spacing: 0.04em;
-color: #2e2f42;
+    font-size: 40px;
+    line-height: 1.2;
+    letter-spacing: 0.04em;
+    color: #2e2f42;
 }
 
 .label {
+    font-family: "Montserrat", sans-serif;
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
