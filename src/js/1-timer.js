@@ -75,4 +75,4 @@ startBtn.addEventListener('click', () => {
   
 });
 
-const fp_1=flatpickr('#datetime-picker', options);
+const fp_1= flatpickr('#datetime-picker', options);
